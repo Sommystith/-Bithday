@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Bitcount+Single+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Warang+Citi&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Phetsarath:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('360_F_479767431_KZ6sTgVUL9dGJfwlqCnWCoBgZZCmypyq.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.part2,
+.part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+::placeholder {
+  color: rgb(243, 0, 190);
+  opacity: 1; /* Firefox */
+}
+
+
+button {
+  font-weight: bold;
+  border-bottom-color: 1px solid red;
+  padding: 10px 20px;
+  background-color: #09964b;
+  color: #fffdfe;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+
+#password-container {
+  border-left: 5px solid red;
+  border-top: 5px solid rgb(0, 255, 60);
+  border-right: 5px solid rgb(0, 194, 229);
+  border-bottom: 5px solid rgb(17, 35, 101);
+  margin-bottom: 20px;
+  background-color: rgb(102, 3, 194);
+  border-radius: 20px;
+  font-family: "Abyssinica SIL", serif;
+  padding: 10px 20px;
+}
+#password-container .btn {
+  margin: 0 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-top: #f90029 3px solid;
+  border-right:3px solid #36143d;
+  border-bottom: #a00789 3px solid;
+  border-left: #e1ff00 3px solid;
+}
+#password-container .btn button {
+  font-family: "Abyssinica SIL", serif;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+#video-container .text {
+  font-family: "Abyssinica SIL", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+#video-container {
+  margin-top: 7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* สูงสุดๆ */
+  display: none;
+}
+
+
+video {
+  border-radius: 10px;
+}
+.flowers{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: -1;
+}
+.leftFlower{
+  padding: 10px;
+  border-right: 2rem solid rgb(176, 19, 71);
+  border-top: 2rem solid rgb(176, 19, 71);
+  border-bottom: 2rem solid rgb(176, 19, 71);
+}
+.rightFlower{
+  padding: 10px;
+  border-left: 2rem solid rgb(176, 19, 71);
+  border-top: 2rem solid rgb(176, 19, 71);
+  border-bottom: 2rem solid rgb(176, 19, 71);
+}
+.what{
+  color: violet;
+}
+.did{
+  color: rgb(12, 196, 76);
+}
+.I{
+  color: rgb(207, 230, 2);
+}
+.ask{
+  color: rgb(227, 76, 0);
+}
+.you{
+  color: rgb(0, 0, 0);
+}
+.that{
+  color: rgb(12, 151, 237);
+}
+.day{
+  color: rgb(76, 165, 167);
+}
+.qtmark{
+  color: rgb(238, 238, 238);
+}
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-family: "Abyssinica SIL", serif;
+  color: white;
+  background-color: rgb(176, 19, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  height: 70px;
+  background-color: rgb(176, 19, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Abyssinica SIL", serif;
+}
+nav h1 {
+  color: white;
+  font-size: 24px;
+}
